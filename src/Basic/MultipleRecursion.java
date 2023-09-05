@@ -1,3 +1,5 @@
+package Basic;
+
 public class MultipleRecursion {
     public static void main(String[] args) {
         System.out.println(fibonaci(4));

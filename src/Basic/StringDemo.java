@@ -1,3 +1,5 @@
+package Basic;
+
 public class StringDemo {
     public static void main(String[] args) {
         System.out.println(isPalindromerecursion(0,"MADAM"));

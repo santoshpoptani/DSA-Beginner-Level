@@ -1,3 +1,5 @@
+package Basic;
+
 public class Patterns {
     public static void main(String[] args) {
         pattern11(5);
