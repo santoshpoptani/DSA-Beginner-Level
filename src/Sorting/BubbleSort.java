@@ -3,7 +3,7 @@ package Sorting;
 public class BubbleSort {
     public static void main(String[] args) {
         int[] arr = {5, 2, 9, 3, 4};
-        bubbleSort(arr);
+        bubbleSortinRecursion(arr,arr.length-1);
         for(Integer i : arr){
             System.out.print(i+" ");
         }
@@ -30,5 +30,19 @@ public class BubbleSort {
                 break;
             }
         }
+    }
+
+    public static void bubbleSortinRecursion(int arr[], int i){
+        if(i == 0){
+            return;
+        }
+        for(int j = 0 ; j< arr.length-1; j++){
+            if(arr[j]>arr[j+1]){
+                int temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
+            }
+        }
+        bubbleSortinRecursion(arr,i-1);
     }
 }
