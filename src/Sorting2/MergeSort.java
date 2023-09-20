@@ -5,7 +5,7 @@ import java.util.List;
 
 public class MergeSort {
     public static void main(String[] args) {
-        int arr[] = {3, 3, 3 ,6 };
+        int arr[] = {1,3,9,2,0,8,7};
         mergeSort(arr,0,arr.length-1);
         for(Integer i : arr){
             System.out.print(i + " ");
@@ -52,5 +52,4 @@ public class MergeSort {
             arr[low + i] = list.get(i);
         }
     }
-
 }
