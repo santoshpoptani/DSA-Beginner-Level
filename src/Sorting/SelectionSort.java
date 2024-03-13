@@ -8,6 +8,11 @@ public class SelectionSort {
 
     public static void selectionSort(int arr[]){
         /*
+
+        simple Def:-
+        Selection Sort is pick the element from array and compare it with other elemnts
+        from array if samller element from the picked element is present swap it
+
         * TC of this algo is O(n^2)
         *
         * Why the outer loop is going lenght-2 because the last element will always be sorted i.e
